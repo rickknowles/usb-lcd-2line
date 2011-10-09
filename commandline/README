@@ -3,5 +3,5 @@ Command line control software for the LCD USB device
 Steps:
  1. cd commandline
  2. make clean all
- 3. sudo ./set-led "Mary had a little lamb"
- 4. sudo ./set-led (to clear)
+ 3. sudo ./set-lcd "Mary had a little lamb"
+ 4. sudo ./set-lcd (to clear)
