@@ -1,0 +1,7 @@
+Firmware for the USB-LCD device
+
+Steps:
+ 1. cd firmware
+ 2. Edit Makefile avrdude settings for your programmer (USBTiny, stk500, etc)
+ 3. Connect AVR programmer to chip
+ 4. make clean flash fuse
