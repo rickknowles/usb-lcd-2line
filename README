@@ -1,3 +1,14 @@
-USB control for a 2 line HD44870 style LCD display
+USB control for a 2 line HD44870 style LCD display.
 
-(see photo.jpg for photo of breadboarded trial)
+(for photo of breadboarded trial, see https://github.com/rickknowles/usb-lcd-2line/blob/master/photo.jpg)
+
+Uses:
+ * V-USB for the AVR microcontroller firmware (driving the LCD)
+ * Peter Fleury's LCD control libraries on AVR
+ * libusb for windows/mac/linux host side control software
+
+TODO:
+ * Publish schematic properly - very similar to http://dicks.home.xs4all.nl/avr/usbtiny/ir.gif, 
+   but minus the IR LED receiver, slightly different pin assignments and different firmware.
+ * Circuit board layout. Need to take one of @taykenee's Eagle classes or pick the brains
+   of Robin and/or Akiba
