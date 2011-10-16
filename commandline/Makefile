@@ -1,12 +1,10 @@
 # Name: Makefile
-# Project: custom-class example
-# Author: Christian Starkjohann
-# Creation Date: 2008-04-06
+# Project: set-lcd-128x64 
+# Author: Rick Knowles
+# Creation Date: 2011-10-11
 # Tabsize: 4
-# Copyright: (c) 2008 by OBJECTIVE DEVELOPMENT Software GmbH
-# License: GNU GPL v2 (see License.txt), GNU GPL v3 or proprietary (CommercialLicense.txt)
-# This Revision: $Id: Makefile 692 2008-11-07 15:07:40Z cs $
-
+# License: GNU GPL v2 (see License.txt)
+# (modified from V-USB custom class example)
 
 # Concigure the following definitions according to your system.
 # This Makefile has been tested on Mac OS X, Linux and Windows.
