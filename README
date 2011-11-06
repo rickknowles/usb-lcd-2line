@@ -6,9 +6,3 @@ Uses:
  * V-USB for the AVR microcontroller firmware (driving the LCD)
  * Peter Fleury's LCD control libraries on AVR
  * libusb for windows/mac/linux host side control software
-
-TODO:
- * Publish schematic properly - very similar to http://dicks.home.xs4all.nl/avr/usbtiny/ir.gif, 
-   but minus the IR LED receiver, slightly different pin assignments and different firmware.
- * Circuit board layout. Need to take one of @taykenee's Eagle classes or pick the brains
-   of Robin and/or Akiba
