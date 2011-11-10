@@ -17,7 +17,7 @@
 #include "usbdrv.h"
 #include "requests.h"
 
-#define ROW_LENGTH  40
+#define ROW_LENGTH  32
 
 uchar bytesRemaining;
 

@@ -216,7 +216,7 @@ section at the end of this file).
 
 /* -------------------------- Device Description --------------------------- */
 
-#define  USB_CFG_VENDOR_ID       0xc0, 0x16 /* = 0x16c0 = 5824 = voti.nl */
+#define  USB_CFG_VENDOR_ID       0xA0, 0x20 /* = 0x20A0 = 8352  */
 /* USB vendor ID for the device, low byte first. If you have registered your
  * own Vendor ID, define it here. Otherwise you may use one of obdev's free
  * shared VID/PID pairs. Be sure to read USB-IDs-for-free.txt for rules!
@@ -225,7 +225,7 @@ section at the end of this file).
  * with libusb: 0x16c0/0x5dc.  Use this VID/PID pair ONLY if you understand
  * the implications!
  */
-#define  USB_CFG_DEVICE_ID       0xdc, 0x05 /* = 0x05dc = 1500 */
+#define  USB_CFG_DEVICE_ID       0x85, 0x41 /* = 0x4185 = 16773 */
 /* This is the ID of the product, low byte first. It is interpreted in the
  * scope of the vendor ID. If you have registered your own VID with usb.org
  * or if you have licensed a PID from somebody else, define it here. Otherwise
@@ -239,8 +239,8 @@ section at the end of this file).
 #define USB_CFG_DEVICE_VERSION  0x00, 0x01
 /* Version number of the device: Minor number first, then major number.
  */
-#define USB_CFG_VENDOR_NAME     'o', 'b', 'd', 'e', 'v', '.', 'a', 't'
-#define USB_CFG_VENDOR_NAME_LEN 8
+#define USB_CFG_VENDOR_NAME     'T', 'o', 'k', 'y', 'o', ' ', 'H', 'a', 'c', 'k', 'e', 'r', 's', 'p', 'a', 'c', 'e'
+#define USB_CFG_VENDOR_NAME_LEN 17
 /* These two values define the vendor name returned by the USB device. The name
  * must be given as a list of characters under single quotes. The characters
  * are interpreted as Unicode (UTF-16) entities.
@@ -249,7 +249,6 @@ section at the end of this file).
  * obdev's free shared VID/PID pair. See the file USB-IDs-for-free.txt for
  * details.
  */
-//#define USB_CFG_DEVICE_NAME     'L', 'E', 'D', 'C', 'o', 'n', 't', 'r', 'o', 'l'
 #define USB_CFG_DEVICE_NAME     'U', 'S', 'B', '-', 'L', 'C', 'D'
 #define USB_CFG_DEVICE_NAME_LEN 7
 /* Same as above for the device name. If you don't want a device name, undefine
