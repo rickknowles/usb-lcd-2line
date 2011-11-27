@@ -54,7 +54,7 @@
  *  @name  Definitions for Display Size 
  *  Change these definitions to adapt setting to your display
  */
-#define LCD_LINES           4     /**< number of visible lines of the display */
+#define LCD_LINES           2     /**< number of visible lines of the display */
 #define LCD_DISP_LENGTH    16     /**< visibles characters per line of the display */
 #define LCD_LINE_LENGTH  0x10     /**< internal line length of the display    */
 
@@ -64,7 +64,7 @@
 #define LCD_START_LINE3  0x10     /**< DDRAM address of first char of line 3 */
 #define LCD_START_LINE4  0x50     /**< DDRAM address of first char of line 4 */
 
-#define LCD_WRAP_LINES      1     /**< 0: no wrap, 1: wrap at end of visibile line */
+#define LCD_WRAP_LINES      0     /**< 0: no wrap, 1: wrap at end of visibile line */
 
 // mtmt Scroll and autoscroll added 
 //#define LCD_SCROLL_FUNCTION 0     /**< include scroll-up function */

@@ -63,7 +63,7 @@ int __attribute__((noreturn)) main(void)
     lcd_clrscr();
     lcd_puts("USB LCD");
     lcd_gotoxy(0,1);
-    lcd_puts("Connect USB...");
+    lcd_puts("Connecting");
 
     usbInit();
     usbDeviceDisconnect();  /* enforce re-enumeration, do this while interrupts are disabled! */
@@ -72,7 +72,7 @@ int __attribute__((noreturn)) main(void)
     wdt_reset();
     usbDeviceConnect();
     lcd_gotoxy(0,1);
-    lcd_puts("Ready         ");
+    lcd_puts("Ready     ");
 
     sei();
     for(;;){                /* main event loop */
