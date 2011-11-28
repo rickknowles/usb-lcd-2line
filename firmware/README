@@ -5,3 +5,7 @@ Steps:
  2. Edit Makefile avrdude settings for your programmer (USBTiny, stk500, etc)
  3. Connect AVR programmer to chip
  4. make clean flash fuse
+
+If you have trouble on your version of GCC for avr getting it less than 2KB 
+compiled size, try just directly burning the main.hex file included in the 
+checkout directly with avrdude.
