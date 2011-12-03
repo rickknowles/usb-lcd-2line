@@ -64,7 +64,7 @@
 #define LCD_START_LINE3  0x10     /**< DDRAM address of first char of line 3 */
 #define LCD_START_LINE4  0x50     /**< DDRAM address of first char of line 4 */
 
-#define LCD_WRAP_LINES      0     /**< 0: no wrap, 1: wrap at end of visibile line */
+#define LCD_WRAP_LINES      1     /**< 0: no wrap, 1: wrap at end of visibile line */
 
 // mtmt Scroll and autoscroll added 
 //#define LCD_SCROLL_FUNCTION 0     /**< include scroll-up function */
